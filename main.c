@@ -63,6 +63,8 @@ void ins_pos() {
     for (int i = 1; i < pos - 1; i++) {
         temp = temp->next;
     }
+printf("\n%d is inserted successfully at position %d\n", newnode->data, pos);
+
 
     newnode->next = temp->next;
     newnode->prev = temp;
